@@ -110,3 +110,13 @@ The platform is built around the following components:
 1. **POC Deployment**: Set up ARC in the central EKS cluster and test with one downstream account.
 2. **Create ci-templates Repo**: Develop and test the reusable workflows.
 3. **Pilot App Repos**: Convert a few sample repositories to use the new CI/CD setup.
+
+## Reference
+- Reusing workflows (GitHub Docs) Explains how to define and call reusable workflows across repos or orgs.  
+  https://docs.github.com/en/actions/sharing-automations/reusing-workflows
+- How to start using reusable workflows with GitHub Actions (GitHub Blog) A practical introduction with real-world examples and limitations.      https://github.blog/developer-skills/github/using-reusable-workflows-github-actions/
+- Create reusable workflows in GitHub Actions (GitHub Resources) Step-by-step guide on inputs, secrets, and organization-wide sharing.      https://resources.github.com/learn/pathways/automation/intermediate/create-reusable-workflows-in-github-actions/
+- Configuring OpenID Connect in Amazon Web Services (GitHub Docs) Official walkthrough for setting up the GitHub OIDC provider and trust policies in AWS.     https://docs.github.com/en/actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services
+- GitHub Actions OIDC AWS Integration: A Step-by-Step Guide (DevOpsCube) Hands-on tutorial covering OIDC setup, role policies, and deploying to EKS.    https://devopscube.com/github-actions-oidc-aws/
+- Aws-actions/configure-aws-credentials (GitHub) The official Action for assuming roles via OIDC and configuring AWS creds in your workflow.  
+  https://github.com/aws-actions/configure-aws-credentials
